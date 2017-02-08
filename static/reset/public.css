@@ -1,0 +1,69 @@
+/*按钮样式*/
+a.button {
+    display:block;
+    line-height: 1.04rem;
+    height: 1.04rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: .38rem;
+    background: #12b7f5;
+    margin:.5rem .25rem;
+}
+
+.flex {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+}
+
+.oneFlex {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+
+.block {
+    display: block!important;
+}
+
+.inline-block {
+    display: inline-block!important;
+}
+
+.none {
+    display: none!important;
+}
+
+.hidden {
+    visibility: hidden!important;
+}
+
+.arrow {
+    background-image: url("../images/normal/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: auto .3rem;
+}
+
+.arrow-up {
+    background-image: url("../images/normal/arrow-up.png");
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: auto .16rem;
+}
+
+.arrow-down {
+    background-image: url('../images/normal/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: auto .16rem;
+}
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder
+ {
+　　color:#dcdcdc;
+}
+
